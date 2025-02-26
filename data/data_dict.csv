@@ -1,0 +1,10 @@
+Feature,Desc
+Pregnancies,Angka banyaknya kehamilan
+Glucose,Konsentrasi glukosa dalam plasma darah yang diambil dari Tes Toleransi Glukosa Oral (TTGO)
+BloodPleasure,Tekanan darah dalam Diastolik (mm Hg)
+SkinThickness,Ketebalan kulit pada bagian trisep (mm)
+Insulin,Kadar insulin dalam darah (mu U/ml)
+BMI,Indikator untuk menentukan kategori berat badan seseorang
+DiabetesPedegree,Fungsi yang menhasilkan nilai pengaruh riwayat penyakit diabetes pada seserorang
+Age,Umur
+Outcome ,Variabel target dengan nilai 0 memiliki diabets dan 1 tidak memiliki diabetes
