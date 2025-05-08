@@ -104,7 +104,7 @@ Data termasuk dalam data catatan medis yang terdapat banyak data bertipe numberi
 ### Data Pre-Processing
 **Handling Missing Values & Outlier**
 
-!['Hasil Handling Missing Values](outputs/hasil%20handling%20missing%20values.png)
+!['Hasil Handling Missing Values](outputs/Hasil%20handling%20missing%20values.png)
  Fitur Seperti **Glucose, BloodPressure, BMI, SkinThickness** terdapat data **missing values** dari ketiga fitur tersebut memiliki nilai 0 yang mana nilai ini tidak mungkin terjadi pada pemerikasaan darah pada manusia yang masih hidup. Sehingga data dengan missing values tersebut akan diisi nilai dengan rentan yang dapat diterima dengan menggunakan KNN. Namun untuk **Insulin** menggunakan nilai median untuk mengganti nilai missing values.
 
 Perubahan lain juga dilakuan pada **data outlier (data insulin > 400)**. Perubahan ini dilakukan karena banyaknya data ekstrem yang sangat jauh dari jangkauan batas atas (upper whisker) yang mengindikasikan bahwa data tersebut **mungkin memiliki kesalahan input atau memang memiliki kondisi tubuh yang berbeda** sehingga perlu ditinjau secara terpisah. Maka dari itu saya memutuskan untuk merubah nilai insulin > 400 dengan batas nilai indikasi resistensi insulin yaitu > 200 dengan batas atas quartil yaitu 350. Karena pada kasus ini volume pasien cukup banyak ditemukan pada rentan nilai tersebut, sehingga hal ini dapat mengurangi kesalahan dalam menghapus nilai real dari suatu individu.
